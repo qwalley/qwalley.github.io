@@ -13,6 +13,9 @@ body {
 .text-primary {
   color: #fed136;
 }
+.text-secondary {
+  color: #202020;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
