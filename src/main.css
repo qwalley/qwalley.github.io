@@ -1,0 +1,47 @@
+html *
+{
+	font-family: Calibri;
+}
+body
+{
+	margin: 0px;
+}
+h1, h2, h3, h4
+{
+	margin: 0px;
+	font-family: Garamond;
+}
+img
+{
+	height: 500px; 
+	padding: 10px;
+}
+.projects_list
+{
+	padding: 10px; 
+	text-align: center; 
+	max-width: 960px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.projects_list h2.topic
+{
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	padding-bottom: 3px;
+}
+.project_container
+{
+	text-align: left;
+	padding: 5px 0px;
+}
+.side_scroller
+{
+	overflow-x: scroll;
+}
+.side_scroller_content
+{
+	display: flex; 
+	margin: 0px -10px;
+}
