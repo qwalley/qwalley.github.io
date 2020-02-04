@@ -57,10 +57,17 @@ p.banner_text
 	padding-bottom: 3px;
 	margin-bottom: 15px;
 	margin-top: 20px;
+	font-family: Calibri;
+	font-weight: 400;
+
 }
 .project_container
 {
 	padding: 5px 0px;
+}
+.project_container p
+{
+	color: #222;
 }
 .project_title
 {
