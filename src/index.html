@@ -8,18 +8,54 @@
 </head>
 
 <body>
-	<div style="text-align: center; background-color: #aaa; padding: 30px;">
+	<div class="banner">
 		<!-- title banner -->
-		<h1>this is an introduction</h1>
-		<span>this subtitle might come in handy</span>
+		<div class="background_gradient">
+			<div class="banner_text_background">
+				<h1 class="banner_text">Hi, my name is Will.</h1>
+				<p class="banner_text">
+					I'm a Computer Engineering graduate from the University of Queen's and I'm looking for my first permanent job.
+				</p>
+				<p class="banner_text">
+					Some of my interests include Fullstack Development, Data Engineering, Machine Learning and Virtual/Augmented Reality.
+				</p>
+				<p class="banner_text">
+					My goal is to get hired at a company that is involved with one or more of my interests, and use that experience to find a position within the company that is a good fit for me.
+				</p>
+			</div>
+		</div>
 	</div>
 	<div class="projects_list">
 		<!-- container for project blocks -->
 		<h2 class="topic">Programming Projects</h2>
 		<div class="project_container">
 			<!-- sample project block -->
-			<h3>Project 1</h3>
-			<span>Technologies Used: foo.js, BarJS, bat_cli</span>
+			<h3 class="project_title">TODO App</h3>
+			<span class="project_subtitle">React Native, expo_cli, SQLite</span>
+			<div class="side_scroller">
+				<div class="side_scroller_content">
+					<!-- block to hold images -->
+						<img src="./images/todo_app/todo_weekly.jpg" alt="weekly todo list">
+						<img src="./images/todo_app/todo_add_new.jpg" alt="adding new task">
+						<img src="./images/todo_app/todo_one_off.jpg" alt="one-off tasks">
+						<img src="./images/todo_app/todo_delete.jpg" alt="deleting tasks">
+				</div>
+			</div>
+			<p>
+				The TODO app was a quick project that I started to introduce myself to mobile development using React Native. I used the managed workflow in expo_cli so that I could develop on my desktop PC while still testing on my iPhone. Since this is a simple, offline app I chose to use SQLite as a database.
+			</p>
+			<p>
+				The app offers three different lists: the "One-Off Tasks" for unusual or infrequent tasks, and the Daily and Weekly lists for recurring tasks. These two lists will reset completed tasks at the end of every day/week.
+			</p>
+			<p>
+				Adding and removing tasks is done using the buttons at the start of each list.
+				Users can record completed tasks by tapping on a list item, and checks can be removed by pressing and holding a line item. Navigating between lists is done by swiping left or right.
+			</p>
+		</div>
+		<div class="project_container">
+			<!-- sample project block -->
+			<h3 class="project_title">Project 1</h3>
+			<span class="project_subtitle">foo.js, BarJS, bat_cli</span>
 			<div class="side_scroller">
 				<div class="side_scroller_content">
 					<!-- block to hold images -->
