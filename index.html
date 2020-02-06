@@ -26,9 +26,18 @@
 		</div>
 	</div>
 	<div class="projects_list">
-		<span style="display: block; text-align: center; font-size: 1.2em; color: #333; padding: 10px 60px;">
-		I'll use this page to post projects that I completed at school and in my freetime, I'll also post about some of my hobbies.
-		</span>
+		<div class="navigation">
+			<span style="display: block; font-size: 1.1em; color: #333; padding: 5px;">
+			I'll use this page to post projects that I completed at school and in my freetime, as well as some of my hobbies.
+			</span>
+			<div class="navigation_container">
+				<a href="#programming">Programming</a><!-- comment removes gap between inline blocks
+				--><a href="#blacksmithing_fabrication" class="navigation_center">Blacksmithing and Fabrication</a><!-- comment removes gap between inline block
+				--><a href="#photography">Photography</a>
+			</div>
+		</div>
+	</div>
+	<div id="programming" class="projects_list">
 		<!-- container for project blocks -->
 		<h2 class="topic">Programming Projects</h2>
 		<div class="project_container">
@@ -85,7 +94,7 @@
 			</span>
 		</div>
 	</div>
-	<div class="projects_list">
+	<div id="blacksmithing_fabrication" class="projects_list">
 		<!-- container for project blocks -->
 		<h2 class="topic">Blacksmithing and Fabrication Projects</h2>
 		<div class="project_container">
@@ -175,7 +184,7 @@
 		</div>
 		</div>
 	</div>
-		<div class="projects_list">
+		<div id="photography" class="projects_list">
 		<!-- container for project blocks -->
 		<h2 class="topic">Photography Projects</h2>
 		<div class="project_container">

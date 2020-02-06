@@ -23,6 +23,7 @@ img
 	background-color: #aaa; 
 	background-position: 50% 45%;
 	background-size: cover;
+	margin-bottom: 30px;
 }
 .background_gradient
 {
@@ -40,6 +41,39 @@ img
 p.banner_text 
 {
 	font-size: 1.1em;
+}
+.navigation
+{
+	padding: 0px 30px;
+	text-align: center;
+}
+.navigation_container
+{
+	border-style: solid none solid none;
+	border-color: #888;
+	border-width: 1px;
+	margin: 10px 0px;
+}
+.navigation_container a
+{
+	display: inline-block;
+	width: 33.33%;
+	font-size: 1.2em;
+	color: #333;
+	text-decoration: none !important;
+	padding: 20px 0px;
+}
+.navigation_container a:hover
+{
+	background-color: #fed;
+}
+.navigation_center
+{
+	display: inline-block;
+	border-style: none solid;
+	border-color: #888;
+	border-width: 1px;
+	box-sizing: border-box;
 }
 .projects_list
 {
@@ -68,6 +102,7 @@ p.banner_text
 .project_container p
 {
 	color: #222;
+	font-size: 1.1em;
 }
 .project_title
 {
