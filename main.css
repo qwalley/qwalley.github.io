@@ -124,10 +124,10 @@ p.banner_text
 	display: flex; 
 	margin: 0px -10px;
 }
-.project_divider
+.project_desc_wrapper
 {
-	border-bottom-style: solid;
-	border-bottom-color: #555;
-	border-bottom-width: 1px;
-	margin: 10px 40px 20px 40px;
+	display: flow-root;
+	background-color: #eee;
+	padding: 0em 1em;
+	margin: 10px;
 }
