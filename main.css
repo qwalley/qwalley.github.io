@@ -89,3 +89,10 @@ p.banner_text
 	display: flex; 
 	margin: 0px -10px;
 }
+.project_divider
+{
+	border-bottom-style: solid;
+	border-bottom-color: #555;
+	border-bottom-width: 1px;
+	margin: 10px 40px 20px 40px;
+}
