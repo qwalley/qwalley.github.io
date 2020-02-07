@@ -107,6 +107,8 @@ p.banner_text
 .project_title
 {
 	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5px;
 }
 .project_subtitle
 {
@@ -130,4 +132,16 @@ p.banner_text
 	background-color: #eee;
 	padding: 0em 1em;
 	margin: 10px;
+}
+.project_list_footer
+{
+	margin: 30px 0px;
+}
+.project_list_footer span
+{
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+	color: #333;
+	padding: 10px 0px;
 }
