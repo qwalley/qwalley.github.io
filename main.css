@@ -147,6 +147,7 @@ p.banner_text
 }
 .code {
 	padding: 2px;
+	color: #555;
 	border-radius: 2px;
 	background: #fefefe;
 }
