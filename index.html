@@ -42,6 +42,44 @@
 		<h2 class="topic">Programming Projects</h2>
 		<div class="project_container">
 			<!-- sample project block -->
+			<h3 class="project_title">LFGBot Discord Application</h3>
+			<span class="project_subtitle">React.js, Discord.js</span>
+			<div class="side_scroller">
+				<div class="side_scroller_content">
+					<!-- block to hold images -->
+						<img src="./images/todo_app/todo_weekly.jpg" alt="weekly todo list">
+						<img src="./images/todo_app/todo_add_new.jpg" alt="adding new task">
+						<img src="./images/todo_app/todo_one_off.jpg" alt="one-off tasks">
+						<img src="./images/todo_app/todo_delete.jpg" alt="deleting tasks">
+				</div>
+			</div>
+			<div class="project_desc_wrapper">
+				<p>
+					This is a Discord bot that will maintain a clean Looking For Group channel in your gaming Discord server. It was designed for the game Albion Online, but is suited for any multiplayer game.
+				</p>
+				<p>
+					The bot will listen a specific text channel, and accept commands in the form <span class="code">!lfg [group_type] [content_description]</span>. Any messages in the channel will be deleted, and those with a valid command are replaced with an embed containing all the information needed to join the group, and an invitation to the host's voice channel.
+				</p>
+				<p>
+					The <span class="code">group_type</span> can be linked to a mentionable role on your server so that players can be pinged for content that they're interested in.
+				</p>
+				<p>
+					The <span class="code">!lfg</span> command will only be accepted if the host user is in a voice channel on the same server as the master channel. Only one post is permitted per user, any posts made after the first will be ignored.
+				</p>
+				<p>
+					Adding and removing tasks is done using the buttons at the start of each list.
+					Users can record completed tasks by tapping on a list item, and tasks can can reset manually with a tap and hold. Navigating between lists is done by swiping left or right.
+				</p>
+				<p>
+					The bot by it's nature will filter out spam, and meaningless messages. Additionally, when the host leaves their voice channel the post will be deleted if they do not return within 3 minutes. This ensures that all posts are current, giving your members a list of all the available content at a glance.
+				</p>
+				<p>
+					The bot can be configured to broadcast the embeds to channels on different servers, which can help improve the visibility of your posts.
+				</p>
+			</div>
+		</div>
+		<div class="project_container">
+			<!-- sample project block -->
 			<h3 class="project_title">TODO App</h3>
 			<span class="project_subtitle">React Native, expo_cli, SQLite</span>
 			<div class="side_scroller">

@@ -145,3 +145,8 @@ p.banner_text
 	color: #333;
 	padding: 10px 0px;
 }
+.code {
+	padding: 2px;
+	border-radius: 2px;
+	background: #fefefe;
+}
